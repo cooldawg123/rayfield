@@ -481,3 +481,5 @@ if CoreHook then
     setmetatable(Metatable, {__namecall = CoreHook}) 
 end
 setreadonly(Metatable, true)
+
+print("ACL LOADED")
